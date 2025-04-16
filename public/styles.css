@@ -1,0 +1,33 @@
+/* Modo claro por defecto */
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Modo oscuro automático */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    .navbar {
+        background-color: #1f1f1f !important;
+    }
+
+    .card {
+        background-color: #1e1e1e;
+        color: #ffffff;
+    }
+
+    .form-control {
+        background-color: #2c2c2c;
+        color: #ffffff;
+        border-color: #444;
+    }
+
+    .btn-primary {
+        background-color: #3a3a3a;
+        border-color: #555;
+    }
+}
